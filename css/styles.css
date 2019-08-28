@@ -1,0 +1,11 @@
+h1 {
+  text-align:  center;
+}
+
+.alert-danger {
+  display: none;
+}
+
+.alert p {
+  text-align: center;
+}
