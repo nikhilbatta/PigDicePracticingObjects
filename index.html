@@ -7,23 +7,55 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <title></title>
   </head>
-  <body>
+  <body class="container test">
+
     <div class="jumbotron">
       <h1>Pig Dice</h1>
     </div>
-    <div class="alert alert-info">
-      <p>Player 1</p>
+    <div id="numInput" class="card-body">
+      <label for="howMany">How many dice would you like to play with? </label>
+      <input id="howMany" type="text" name="" value="">
+      <button id="howManyClick" type="click" name="button">Submit</button>
     </div>
-    <div class="alert alert-danger">
-      <p>Player 2</p>
+    <div id="gameBoard">
+      <div class="alert alert-info">
+        <p>Player 1</p>
+      </div>
+      <div class="alert alert-danger">
+        <p>Player 2</p>
+      </div>
+      <br>
+
+      <div class="alert-success">
+        <p>Turn Score = <span id="turnScore"></span></p>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <button id="rollButton" type="click" name="button"> Roll</button>
+        </div>
+        <div class="col-sm">
+          <button id="endTurn" type="click" name="button">End Turn</button>
+        </div>
+      </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <p>Player 1 Score = <span id="player1Score"></span></p>
+          </div>
+          <div class="col-sm">
+            <p>Player 2 Score = <span id="player2Score"></span></p>
+          </div>
+        </div>
+      </div>
+      <p id='win'></p>
     </div>
 
-    <img src="" alt="">
-    <button id="rollButton" type="click" name="button"> Generate Random</button>
-    <button id="endTurn" type="click" name="button">End Turn</button>
-    <p>Turn Score = <span id="turnScore"></span></p>
-    <p>Player 1 Score = <span id="player1Score"></span></p>
-    <p>Player 2 Score = <span id="player2Score"></span></p>
-    <p id='win'></p>
+
+
+
   </body>
 </html>

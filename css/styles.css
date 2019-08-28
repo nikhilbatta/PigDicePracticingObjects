@@ -9,3 +9,17 @@ h1 {
 .alert p {
   text-align: center;
 }
+div#gameBoard {
+  display: none;
+}
+.alert-success {
+  text-align: center;
+}
+.col-sm button{
+  width: 50%;
+  margin-left: 25%;
+  height: 50px;
+}
+body {
+  background-image: url("img/dice.jpeg");
+}
