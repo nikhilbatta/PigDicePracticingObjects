@@ -6,7 +6,7 @@
 
 ## Description
 
-_This game is cool because you can play with however many dice you want, beware, if you play with more than two dice your chances of getting a 1 are through the roof as well!
+_This game is cool because you can play with however many dice you want, beware, if you play with more than two dice your chances of getting a 1 are through the roof as well!_
 
 ## Setup/Installation Requirements
 
